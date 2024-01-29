@@ -3,9 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="viewport800.css">
     <title>Document</title>
 </head>
 <body>
-    
+<!--the selector for the choice of quizz-->
+    <select name="quizzTheme" id="quizzTheme">
+        <option value="--">--</option>
+        <option value="jeuxVideo">jeux vidéo</option>
+        <option value="films">films</option>
+        <option value="geographie">géographie</option>
+    </select>
+<!--start the block for quizz-->
+    <div id="quizz">
+<!--name of quizz-->
+        <h2 id="h2"></h2>
+<!--block for show answers-->
+        <div id="question">
+            <div id="question1">
+                <button class="b"></button>
+                <button class="b"></button>
+            </div>
+            <div id="question2">
+                <button class="b"></button>
+                <button class="b"></button>
+            </div>
+        </div>
+<!--the result and for the end game a little picture-->
+        <div id="meme"></div>
+        <p id="resultat"></p></div>
+        
+    <script src="script.js"></script>
 </body>
 </html>

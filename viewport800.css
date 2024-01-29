@@ -1,0 +1,16 @@
+/*Iphone SE*/
+@media (max-width: 375px){
+    #quizz{
+    width: 300px;
+    background-position: center;
+    }
+    #question{
+        flex-direction: column;
+    }
+    #question1{
+        flex-direction: column;
+    }
+    #question2{ 
+        flex-direction: column;
+    }
+}
